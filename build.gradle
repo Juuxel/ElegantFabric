@@ -1,4 +1,5 @@
 plugins {
+    id 'java-library'
     id 'fabric-loom' version '0.2.7-SNAPSHOT'
     id 'maven-publish'
 }
@@ -39,7 +40,7 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     //modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    implementation "org.cactoos:cactoos:0.43"
+    api "org.cactoos:cactoos:0.43"
     include "org.cactoos:cactoos:0.43"
 
     // PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
