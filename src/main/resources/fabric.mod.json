@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "elegant_fabric",
+  "version": "$version",
+
+  "name": "Elegant Fabric",
+  "description": "An \"elegant\" library.",
+  "authors": [
+    "Juuz"
+  ],
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": ["juuxel.elegantfabric.impl.ElegantFabric"]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "minecraft": ">=1.15-"
+  },
+  "suggests": {
+    "lil-tater": "*"
+  }
+}
